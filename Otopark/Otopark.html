@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Otopark ücreti</title>    
+<link rel="stylesheet" href="Otopark.css">
+<script src="Otopark.js"></script>
+</head>
+<body>
+    
+    <div class="otopark">
+    
+    <div class="giris">
+    <div class="tag">Giriş</div>
+        <input id="giris-saat" type="text" placeholder="--:--" >
+    </div>
+
+     <div class="cikis">
+    <div class="tagc">Çıkış</div>
+        <input id="cikis-saat" type="text" placeholder="--:--">
+    </div>
+   
+    	<button class="button"onclick="gonder()">Ücret</button>
+
+    	<div id="tablo">
+    		
+    		<div id="saat">Toplam Park Saati: &nbsp; <span id="tsaat"></span></div><br>
+    		<div id="saat-ucret">Ücret: 8TL</div><br>
+    		<div id="tutar">Toplam Ücret: &nbsp; <span id="ttutar"></span></div>
+
+    			
+    	</div>
+
+    <p id="not">Lütfen giriş ve çıkış saatini yazarken sadece saati rakamlarla yazın "16:00" yerine sadece 16 yazın dakikaları yazmayınız...</p>
+
+    </div>
+</body>
+    
+    
+</html>
